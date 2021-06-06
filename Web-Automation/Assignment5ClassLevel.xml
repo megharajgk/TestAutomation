@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Automation">
+	<test name="Assignment No-5">
+		<classes>
+		<class name="com.sgtesting.assignment5.Scenario1"></class>
+		<class name="com.sgtesting.assignment5.Scenario2"></class>
+		<class name="com.sgtesting.assignment5.Scenario3"></class>
+		<class name="com.sgtesting.assignment5.Scenario4"></class>
+		<class name="com.sgtesting.assignment5.Scenario5"></class>
+		<class name="com.sgtesting.assignment5.Scenario6"></class>
+		<class name="com.sgtesting.assignment5.Scenario7"></class>
+		<class name="com.sgtesting.assignment5.AdvancedScenario1"></class>
+		<class name="com.sgtesting.assignment5.AdvancedScenario2"></class>
+		</classes> 
+	</test>
+</suite>

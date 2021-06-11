@@ -3,7 +3,7 @@ package com.sgtesting.actitime.tests;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginLogout extends Initialization{
+public class LoginLogout {
 	
 	/**
 	 * Test case ID:
@@ -16,7 +16,7 @@ public class LoginLogout extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void login()
+	public static void login(WebDriver oBrowser)
 	{
 		try
 		{
@@ -41,7 +41,7 @@ public class LoginLogout extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void logout()
+	public static void logout(WebDriver oBrowser)
 	{
 		try
 		{

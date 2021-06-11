@@ -4,7 +4,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Users extends Initialization{
+public class Users {
 	
 	/**
 	 * Test case ID:
@@ -17,7 +17,7 @@ public class Users extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createUser()
+	public static void createUser(WebDriver oBrowser)
 	{
 		try
 		{
@@ -50,7 +50,7 @@ public class Users extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyUser()
+	public static void modifyUser(WebDriver oBrowser)
 	{
 		try
 		{
@@ -78,7 +78,7 @@ public class Users extends Initialization{
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteUser()
+	public static void deleteUser(WebDriver oBrowser)
 	{
 		try
 		{

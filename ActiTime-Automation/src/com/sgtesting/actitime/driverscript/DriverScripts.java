@@ -3,6 +3,8 @@ package com.sgtesting.actitime.driverscript;
 import java.lang.reflect.Method;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import com.sgtesting.actitime.datatable.Datatable;
 import com.sgtesting.actitime.tests.Initialize;
@@ -13,15 +15,49 @@ public class DriverScripts {
 	public static Datatable datatable=null;
 	public static String strTestScriptExcelFile=null;
 	public static WebDriver oBrowser=null;
-	public static void main(String[] args) {
-		
+	
+
+	/**
+	 * Test case ID:
+	 * Test case Name:
+	 * Created By:
+	 * Created Date:
+	 * Reviewed By:
+	 * Parameters:
+	 * return Value:
+	 * Purpose:
+	 * Description:
+	 */
+	@BeforeClass
+	public void loadFiles()
+	{
 		try
 		{
-			
 			strPath=System.getProperty("user.dir");
 			strControllerFile=strPath+"\\Controller\\data_Controller.xlsx";
 			datatable=new Datatable();
-			
+		}catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * Test case ID:
+	 * Test case Name:
+	 * Created By:
+	 * Created Date:
+	 * Reviewed By:
+	 * Parameters:
+	 * return Value:
+	 * Purpose:
+	 * Description:
+	 */
+	@Test
+	public void executeScenarios()
+	{
+		try
+		{
 			//Get the Row Count from data_Controller.xlsx File
 			int iControllerRC=datatable.rowCount(strControllerFile, "Scenarios");
 			for(int tcid=0;tcid<iControllerRC;tcid++)
@@ -66,11 +102,9 @@ public class DriverScripts {
 					System.out.println("+++++++++++++++++++++++++++++++++++++++");
 				}
 			}
-			
 		}catch(Exception e)
 		{
 			e.printStackTrace();
 		}
 	}
-
 }

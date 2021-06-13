@@ -135,18 +135,7 @@ public class ChromeBrowserDemo {
 		}
 	}
 	
-	public static By getElement(String textcontent)
-	{
-		By by=null;
-		try
-		{
-			by=By.xpath("//*[text()="+"'"+textcontent+"'"+"]");
-		}catch(Exception e)
-		{
-			e.printStackTrace();
-		}
-		return by;
-	}
+	
 	
 	
 }

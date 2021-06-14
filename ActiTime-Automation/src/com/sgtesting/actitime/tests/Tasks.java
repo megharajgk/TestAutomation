@@ -1,21 +1,18 @@
 package com.sgtesting.actitime.tests;
 
-import org.openqa.selenium.WebDriver;
-
 public class Tasks {
 	
 	/**
-	 * Test case ID:
-	 * Test case Name:
 	 * Created By:
 	 * Created Date:
 	 * Reviewed By:
-	 * Parameters:
-	 * return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createTasks(WebDriver oBrowser)
+	public static void createTask()
 	{
 		try
 		{
@@ -27,17 +24,16 @@ public class Tasks {
 	}
 	
 	/**
-	 * Test case ID:
-	 * Test case Name:
 	 * Created By:
 	 * Created Date:
 	 * Reviewed By:
-	 * Parameters:
-	 * return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyTasks(WebDriver oBrowser)
+	public static void modifyTask()
 	{
 		try
 		{
@@ -49,17 +45,16 @@ public class Tasks {
 	}
 	
 	/**
-	 * Test case ID:
-	 * Test case Name:
 	 * Created By:
 	 * Created Date:
 	 * Reviewed By:
-	 * Parameters:
-	 * return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteTasks(WebDriver oBrowser)
+	public static void deleteTask()
 	{
 		try
 		{

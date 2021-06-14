@@ -1,21 +1,18 @@
 package com.sgtesting.actitime.tests;
 
-import org.openqa.selenium.WebDriver;
-
 public class Projects {
 	
 	/**
-	 * Test case ID:
-	 * Test case Name:
 	 * Created By:
 	 * Created Date:
 	 * Reviewed By:
-	 * Parameters:
-	 * return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void createProject(WebDriver oBrowser)
+	public static void createProject()
 	{
 		try
 		{
@@ -27,17 +24,16 @@ public class Projects {
 	}
 	
 	/**
-	 * Test case ID:
-	 * Test case Name:
 	 * Created By:
 	 * Created Date:
 	 * Reviewed By:
-	 * Parameters:
-	 * return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void modifyProject(WebDriver oBrowser)
+	public static void modifyProject()
 	{
 		try
 		{
@@ -49,17 +45,16 @@ public class Projects {
 	}
 	
 	/**
-	 * Test case ID:
-	 * Test case Name:
 	 * Created By:
 	 * Created Date:
 	 * Reviewed By:
-	 * Parameters:
-	 * return Value:
+	 * Test case ID:
+	 * parameters:
+	 * return type:
 	 * Purpose:
 	 * Description:
 	 */
-	public static void deleteProject(WebDriver oBrowser)
+	public static void deleteProject()
 	{
 		try
 		{
